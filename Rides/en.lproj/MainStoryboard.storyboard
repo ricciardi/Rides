@@ -50,15 +50,30 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6c-xH-Sxc">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Rides Test">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PHH-m9-W3t" kind="modal" id="Zed-rX-ADl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="HyI-M1-AvL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="201" id="1Up-SO-SMC"/>
                             <constraint firstItem="HyI-M1-AvL" firstAttribute="trailing" secondItem="hLO-lq-gxk" secondAttribute="trailing" type="default" id="ASj-4R-GVx"/>
+                            <constraint firstAttribute="trailing" secondItem="X6c-xH-Sxc" secondAttribute="trailing" constant="69" id="C4T-T5-5LM"/>
                             <constraint firstItem="h89-Ay-U5M" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="JXi-ud-Rx9"/>
                             <constraint firstItem="HyI-M1-AvL" firstAttribute="centerX" secondItem="h89-Ay-U5M" secondAttribute="centerX" type="default" id="S8H-Rv-BVd"/>
                             <constraint firstItem="HyI-M1-AvL" firstAttribute="leading" secondItem="hLO-lq-gxk" secondAttribute="leading" type="default" id="Sr7-1f-rSc"/>
                             <constraint firstItem="aqA-FJ-lUR" firstAttribute="top" secondItem="hLO-lq-gxk" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="laC-mD-AXE"/>
+                            <constraint firstItem="X6c-xH-Sxc" firstAttribute="top" secondItem="3" secondAttribute="top" constant="71" id="ni9-8B-0UK"/>
                             <constraint firstItem="aqA-FJ-lUR" firstAttribute="centerX" secondItem="hLO-lq-gxk" secondAttribute="centerX" type="default" id="wFd-y8-0Zl"/>
                             <constraint firstItem="hLO-lq-gxk" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="xc3-dI-6AO"/>
                             <constraint firstAttribute="bottom" secondItem="aqA-FJ-lUR" secondAttribute="bottom" constant="145" id="ydC-pe-bBS"/>
@@ -79,6 +94,11 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="wks-rF-OU6">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZzU-Vf-EOB" id="iiv-hD-3bk"/>
+                                    <outlet property="delegate" destination="ZzU-Vf-EOB" id="rn4-bS-lZF"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -147,10 +167,52 @@
                     <view key="view" contentMode="scaleToFill" id="gCu-lP-DwY">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="CUP-qX-jWL">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jyO-B6-tNG">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Dcs-Pk-xML">
+                                        <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="6Q4-zh-X5m">
+                                        <rect key="frame" x="0.0" y="110" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CUP-qX-jWL" firstAttribute="bottom" secondItem="gCu-lP-DwY" secondAttribute="bottom" type="default" id="8J9-BF-u8e"/>
+                            <constraint firstItem="CUP-qX-jWL" firstAttribute="top" secondItem="gCu-lP-DwY" secondAttribute="top" type="default" id="ELW-1t-vyg"/>
+                            <constraint firstItem="CUP-qX-jWL" firstAttribute="trailing" secondItem="gCu-lP-DwY" secondAttribute="trailing" type="default" id="Nhf-1s-O7i"/>
+                            <constraint firstItem="CUP-qX-jWL" firstAttribute="leading" secondItem="gCu-lP-DwY" secondAttribute="leading" type="default" id="ncB-1d-llh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Isv-LQ-sCa"/>
                     <connections>
+                        <outlet property="tableView" destination="CUP-qX-jWL" id="95t-i1-3D5"/>
                         <segue destination="lJZ-ly-rMl" kind="push" id="rRV-it-ftB"/>
                     </connections>
                 </viewController>
@@ -198,6 +260,9 @@
         </class>
         <class className="Rides" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Rides.h"/>
+            <relationships>
+                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

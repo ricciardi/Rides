@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Groups : UIViewController
+@interface Groups : UIViewController 
 
 @end
