@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D401830B178C5B7F00DA0C40 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = D401830A178C5B7F00DA0C40 /* Login.m */; };
+		D401830E178C5B9300DA0C40 /* Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = D401830D178C5B9300DA0C40 /* Groups.m */; };
+		D4018311178C5BA500DA0C40 /* Rides.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018310178C5BA500DA0C40 /* Rides.m */; };
+		D4018314178C5BB400DA0C40 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018313178C5BB400DA0C40 /* Driver.m */; };
+		D4018317178C5BD000DA0C40 /* Rider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018316178C5BCF00DA0C40 /* Rider.m */; };
+		D401831A178C5DD900DA0C40 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018319178C5DD900DA0C40 /* Map.m */; };
 		D4827E87178B6F1900DE89E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E86178B6F1900DE89E8 /* UIKit.framework */; };
 		D4827E89178B6F1900DE89E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E88178B6F1900DE89E8 /* Foundation.framework */; };
 		D4827E8B178B6F1900DE89E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E8A178B6F1900DE89E8 /* CoreGraphics.framework */; };
@@ -21,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4018309178C5B7F00DA0C40 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		D401830A178C5B7F00DA0C40 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		D401830C178C5B9300DA0C40 /* Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Groups.h; sourceTree = "<group>"; };
+		D401830D178C5B9300DA0C40 /* Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Groups.m; sourceTree = "<group>"; };
+		D401830F178C5BA500DA0C40 /* Rides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rides.h; sourceTree = "<group>"; };
+		D4018310178C5BA500DA0C40 /* Rides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rides.m; sourceTree = "<group>"; };
+		D4018312178C5BB400DA0C40 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		D4018313178C5BB400DA0C40 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		D4018315178C5BCF00DA0C40 /* Rider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rider.h; sourceTree = "<group>"; };
+		D4018316178C5BCF00DA0C40 /* Rider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rider.m; sourceTree = "<group>"; };
+		D4018318178C5DD900DA0C40 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		D4018319178C5DD900DA0C40 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 		D4827E83178B6F1900DE89E8 /* Rides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4827E86178B6F1900DE89E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4827E88178B6F1900DE89E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +104,18 @@
 				D4827E95178B6F1900DE89E8 /* AppDelegate.h */,
 				D4827E96178B6F1900DE89E8 /* AppDelegate.m */,
 				D4827E9E178B6F1900DE89E8 /* MainStoryboard.storyboard */,
+				D4018318178C5DD900DA0C40 /* Map.h */,
+				D4018319178C5DD900DA0C40 /* Map.m */,
+				D4018309178C5B7F00DA0C40 /* Login.h */,
+				D401830A178C5B7F00DA0C40 /* Login.m */,
+				D401830C178C5B9300DA0C40 /* Groups.h */,
+				D401830D178C5B9300DA0C40 /* Groups.m */,
+				D401830F178C5BA500DA0C40 /* Rides.h */,
+				D4018310178C5BA500DA0C40 /* Rides.m */,
+				D4018312178C5BB400DA0C40 /* Driver.h */,
+				D4018313178C5BB400DA0C40 /* Driver.m */,
+				D4018315178C5BCF00DA0C40 /* Rider.h */,
+				D4018316178C5BCF00DA0C40 /* Rider.m */,
 				D4827EA1178B6F1900DE89E8 /* ViewController.h */,
 				D4827EA2178B6F1900DE89E8 /* ViewController.m */,
 				D4827E8D178B6F1900DE89E8 /* Supporting Files */,
@@ -176,6 +206,12 @@
 				D4827E93178B6F1900DE89E8 /* main.m in Sources */,
 				D4827E97178B6F1900DE89E8 /* AppDelegate.m in Sources */,
 				D4827EA3178B6F1900DE89E8 /* ViewController.m in Sources */,
+				D401830B178C5B7F00DA0C40 /* Login.m in Sources */,
+				D401830E178C5B9300DA0C40 /* Groups.m in Sources */,
+				D4018311178C5BA500DA0C40 /* Rides.m in Sources */,
+				D4018314178C5BB400DA0C40 /* Driver.m in Sources */,
+				D4018317178C5BD000DA0C40 /* Rider.m in Sources */,
+				D401831A178C5DD900DA0C40 /* Map.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +334,7 @@
 				D4827EA8178B6F1900DE89E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
