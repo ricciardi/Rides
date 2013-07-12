@@ -16,6 +16,14 @@
 
 -(id)initWithText:(NSString*)text;
 
-+(id)RideWithText:(NSString*)text;
++(id)rideWithText:(NSString*)text;
 
 @end
+
+/* @property (nonatomic, copy) NSString *text;
+ 
+  @property (nonatomic) BOOL completed;
+ 
+ -(id)initWithText:(NSString*)text;
+
+ +(id)toDoItemWithText:(NSString*)text;*/

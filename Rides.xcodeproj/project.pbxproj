@@ -9,15 +9,13 @@
 /* Begin PBXBuildFile section */
 		D401830B178C5B7F00DA0C40 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = D401830A178C5B7F00DA0C40 /* Login.m */; };
 		D401830E178C5B9300DA0C40 /* Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = D401830D178C5B9300DA0C40 /* Groups.m */; };
-		D4018311178C5BA500DA0C40 /* Rides.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018310178C5BA500DA0C40 /* Rides.m */; };
 		D4018314178C5BB400DA0C40 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018313178C5BB400DA0C40 /* Driver.m */; };
 		D4018317178C5BD000DA0C40 /* Rider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018316178C5BCF00DA0C40 /* Rider.m */; };
 		D401831A178C5DD900DA0C40 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018319178C5DD900DA0C40 /* Map.m */; };
 		D401831D178D0ACB00DA0C40 /* Ride.m in Sources */ = {isa = PBXBuildFile; fileRef = D401831C178D0ACB00DA0C40 /* Ride.m */; };
-		D4018321178D0F9A00DA0C40 /* RideTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018320178D0F9A00DA0C40 /* RideTableCell.m */; };
 		D4018323178DA1B400DA0C40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4018322178DA1B400DA0C40 /* CFNetwork.framework */; };
 		D4018325178DA1CB00DA0C40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4018324178DA1CB00DA0C40 /* QuartzCore.framework */; };
-		D4018328178DA39800DA0C40 /* StrikeThroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018327178DA39800DA0C40 /* StrikeThroughLabel.m */; };
+		D401832E1790711000DA0C40 /* Rides.m in Sources */ = {isa = PBXBuildFile; fileRef = D401832D1790711000DA0C40 /* Rides.m */; };
 		D4827E87178B6F1900DE89E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E86178B6F1900DE89E8 /* UIKit.framework */; };
 		D4827E89178B6F1900DE89E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E88178B6F1900DE89E8 /* Foundation.framework */; };
 		D4827E8B178B6F1900DE89E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E8A178B6F1900DE89E8 /* CoreGraphics.framework */; };
@@ -36,8 +34,6 @@
 		D401830A178C5B7F00DA0C40 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		D401830C178C5B9300DA0C40 /* Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Groups.h; sourceTree = "<group>"; };
 		D401830D178C5B9300DA0C40 /* Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Groups.m; sourceTree = "<group>"; };
-		D401830F178C5BA500DA0C40 /* Rides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rides.h; sourceTree = "<group>"; };
-		D4018310178C5BA500DA0C40 /* Rides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rides.m; sourceTree = "<group>"; };
 		D4018312178C5BB400DA0C40 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
 		D4018313178C5BB400DA0C40 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
 		D4018315178C5BCF00DA0C40 /* Rider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rider.h; sourceTree = "<group>"; };
@@ -46,13 +42,10 @@
 		D4018319178C5DD900DA0C40 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 		D401831B178D0ACB00DA0C40 /* Ride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ride.h; sourceTree = "<group>"; };
 		D401831C178D0ACB00DA0C40 /* Ride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ride.m; sourceTree = "<group>"; };
-		D401831E178D0B6700DA0C40 /* TableViewCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellDelegate.h; sourceTree = "<group>"; };
-		D401831F178D0F9A00DA0C40 /* RideTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideTableCell.h; sourceTree = "<group>"; };
-		D4018320178D0F9A00DA0C40 /* RideTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideTableCell.m; sourceTree = "<group>"; };
 		D4018322178DA1B400DA0C40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D4018324178DA1CB00DA0C40 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D4018326178DA39800DA0C40 /* StrikeThroughLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikeThroughLabel.h; sourceTree = "<group>"; };
-		D4018327178DA39800DA0C40 /* StrikeThroughLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikeThroughLabel.m; sourceTree = "<group>"; };
+		D401832C1790711000DA0C40 /* Rides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rides.h; sourceTree = SOURCE_ROOT; };
+		D401832D1790711000DA0C40 /* Rides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rides.m; sourceTree = SOURCE_ROOT; };
 		D4827E83178B6F1900DE89E8 /* Rides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4827E86178B6F1900DE89E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4827E88178B6F1900DE89E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,14 +122,9 @@
 				D401830C178C5B9300DA0C40 /* Groups.h */,
 				D401831B178D0ACB00DA0C40 /* Ride.h */,
 				D401831C178D0ACB00DA0C40 /* Ride.m */,
-				D401831E178D0B6700DA0C40 /* TableViewCellDelegate.h */,
-				D401831F178D0F9A00DA0C40 /* RideTableCell.h */,
-				D4018320178D0F9A00DA0C40 /* RideTableCell.m */,
-				D4018326178DA39800DA0C40 /* StrikeThroughLabel.h */,
-				D4018327178DA39800DA0C40 /* StrikeThroughLabel.m */,
+				D401832C1790711000DA0C40 /* Rides.h */,
+				D401832D1790711000DA0C40 /* Rides.m */,
 				D401830D178C5B9300DA0C40 /* Groups.m */,
-				D401830F178C5BA500DA0C40 /* Rides.h */,
-				D4018310178C5BA500DA0C40 /* Rides.m */,
 				D4018312178C5BB400DA0C40 /* Driver.h */,
 				D4018313178C5BB400DA0C40 /* Driver.m */,
 				D4018315178C5BCF00DA0C40 /* Rider.h */,
@@ -233,13 +221,11 @@
 				D4827EA3178B6F1900DE89E8 /* ViewController.m in Sources */,
 				D401830B178C5B7F00DA0C40 /* Login.m in Sources */,
 				D401830E178C5B9300DA0C40 /* Groups.m in Sources */,
-				D4018311178C5BA500DA0C40 /* Rides.m in Sources */,
 				D4018314178C5BB400DA0C40 /* Driver.m in Sources */,
 				D4018317178C5BD000DA0C40 /* Rider.m in Sources */,
 				D401831A178C5DD900DA0C40 /* Map.m in Sources */,
 				D401831D178D0ACB00DA0C40 /* Ride.m in Sources */,
-				D4018321178D0F9A00DA0C40 /* RideTableCell.m in Sources */,
-				D4018328178DA39800DA0C40 /* StrikeThroughLabel.m in Sources */,
+				D401832E1790711000DA0C40 /* Rides.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

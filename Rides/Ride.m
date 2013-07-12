@@ -17,7 +17,7 @@
     return self;
 }
 
-+(id)RideWithText:(NSString *)text {
++(id)rideWithText:(NSString *)text {
     return [[Ride alloc] initWithText:text];
 }
 
