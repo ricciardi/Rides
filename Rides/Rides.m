@@ -7,13 +7,14 @@
 //
 
 #import "Rides.h"
+#import "Ride.h"
 
 @interface Rides ()
 
 @end
 
 @implementation Rides
-
+@synthesize rides;
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -44,26 +45,31 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
+
     // Return the number of sections.
-    return 0;
+    return 1;
 }
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
+
     // Return the number of rows in the section.
-    return 0;
+    return [self.rides count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
-    // Configure the cell...
+    UITableViewCell *cell = [tableView
+                             dequeueReusableCellWithIdentifier:@"RideCell"];
+	
+    Ride *ride = [self.rides objectAtIndex:indexPath.row];
+	cell.textLabel.text = ride.albumName;
+	cell.detailTextLabel.text = ride.rider;
     
     return cell;
+    
 }
 
 /*
@@ -104,6 +110,16 @@
     return YES;
 }
 */
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	if (editingStyle == UITableViewCellEditingStyleDelete)
+	{
+		[self.rides removeObjectAtIndex:indexPath.row];
+		[tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+	}
+}
+
 
 #pragma mark - Table view delegate
 

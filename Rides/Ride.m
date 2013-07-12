@@ -9,17 +9,5 @@
 #import "Ride.h"
 
 @implementation Ride
-
--(id)initWithText:(NSString*)text {
-    if (self = [super init]) {
-        self.text = text;
-    }
-    return self;
-}
-
-+(id)rideWithText:(NSString *)text {
-    return [[Ride alloc] initWithText:text];
-}
-
-
+@synthesize albumName, rider, rating;
 @end

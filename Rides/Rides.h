@@ -10,4 +10,6 @@
 
 @interface Rides : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *rides;
+
 @end

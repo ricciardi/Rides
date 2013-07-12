@@ -9,21 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Ride : NSObject
-
-@property(nonatomic, copy) NSString *text;
-
-@property (nonatomic) BOOL completed;
-
--(id)initWithText:(NSString*)text;
-
-+(id)rideWithText:(NSString*)text;
+@property (nonatomic, copy) NSString *albumName;
+@property (nonatomic, copy) NSString *rider;
+@property (nonatomic, assign) int rating;
 
 @end
-
-/* @property (nonatomic, copy) NSString *text;
- 
-  @property (nonatomic) BOOL completed;
- 
- -(id)initWithText:(NSString*)text;
-
- +(id)toDoItemWithText:(NSString*)text;*/
