@@ -32,3 +32,24 @@ Responsibilities
 - Python - Ryan
 - Google App Engine - Ryan
 - Login From - Logan
+
+---
+User Story A (group creator)
+
+Login (facebook) -> create group -> add friends to "my groups"
+
+User Story B, C, D, E, ..., ZZZ (potential members)
+
+Login (facebook) -> (I see I have invites)
+  ( [click] -> accept | decline ) | ( [swipe left] | [swipe right] )
+  if [click] show group info page
+  if ( accepted ) display group view
+  else show invites page
+
+group info page
+  if (member) follow "Groups" above
+  else show info
+    if (invited) show accept / decline
+    else show name & "request access"
+
+
