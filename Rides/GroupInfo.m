@@ -7,6 +7,7 @@
 //
 
 #import "GroupInfo.h"
+#import "Groups.h"
 
 @interface GroupInfo ()
 
@@ -25,6 +26,7 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }

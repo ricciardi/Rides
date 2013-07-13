@@ -7,6 +7,7 @@
 //
 
 #import "Groups.h"
+#import "GroupInfo.h"
 
 @interface Groups ()
 
@@ -117,8 +118,8 @@
 {
     // Navigation logic may go here. Create and push another view controller.
     
-     UITableViewController *detailViewController = [[UITableViewController alloc] initWithNibName:@"Rides" bundle:nil];
-     // ...
+     GroupInfo *detailViewController = [[GroupInfo alloc] init];
+     // ...cell.textLabel.text = [groups objectAtIndex:indexPath.row];
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
     
