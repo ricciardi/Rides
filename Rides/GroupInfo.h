@@ -10,4 +10,7 @@
 
 @interface GroupInfo : UIViewController
 
+
+- (IBAction) changeProductText:(NSString *)str;
+
 @end

@@ -95,13 +95,24 @@
                     <view key="view" contentMode="scaleToFill" id="gd2-c6-Zhe">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sw4-ji-IGj">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Sw4-ji-IGj" firstAttribute="centerX" secondItem="gd2-c6-Zhe" secondAttribute="centerX" type="default" id="boq-kv-PtJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Sw4-ji-IGj" secondAttribute="bottom" constant="169" id="gn2-n3-SLP"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9Xw-CR-vLi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4pt-ON-Bk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1120" y="-175"/>
+            <point key="canvasLocation" x="1190" y="-151"/>
         </scene>
         <!--Rides - Rides-->
         <scene sceneID="7Pw-oH-na1">
@@ -196,7 +207,7 @@
                     <connections>
                         <segue destination="VcX-VA-vnf" kind="push" id="GpU-U3-8g9"/>
                         <segue destination="FgR-OJ-CFG" kind="push" id="Fm9-Gm-4B5"/>
-                        <segue destination="SKW-en-TSK" kind="push" id="K6n-o1-NVA"/>
+                        <segue destination="SKW-en-TSK" kind="push" identifier="getGroups" id="K6n-o1-NVA"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTh-Ph-24N" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -418,6 +429,9 @@
         </class>
         <class className="GroupInfo" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GroupInfo.h"/>
+            <relationships>
+                <relationship kind="action" name="changeProductText:" candidateClass="NSString"/>
+            </relationships>
         </class>
         <class className="Groups" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/Groups.h"/>

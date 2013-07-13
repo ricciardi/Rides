@@ -114,15 +114,12 @@
 
 #pragma mark - Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    
-     GroupInfo *detailViewController = [[GroupInfo alloc] init];
-     // ...cell.textLabel.text = [groups objectAtIndex:indexPath.row];
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-    
+    [self performSegueWithIdentifier:@"getGroups" sender:self];
+    GroupInfo *detailViewController = [[GroupInfo alloc] init];
+    [self.navigationController pushViewController:detailViewController animated:YES];
+    [detailViewController changeProductText:[groups objectAtIndex:indexPath.row]];
 }
 
 @end
