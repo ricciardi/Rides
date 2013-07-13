@@ -28,6 +28,9 @@
 {
     [super viewDidLoad];
 
+    rides = [NSMutableArray arrayWithObjects:@"Egg Benedict", @"Mushroom Risotto", @"Full Breakfast", nil];
+    
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -55,21 +58,19 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    // Return the number of rows in the section.
-    return [self.rides count];
-}
+    return [rides count];}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView
                              dequeueReusableCellWithIdentifier:@"RideCell"];
 	
-    Ride *ride = [self.rides objectAtIndex:indexPath.row];
-	cell.textLabel.text = ride.albumName;
-	cell.detailTextLabel.text = ride.rider;
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"RideCell"];
+    }
     
+    cell.textLabel.text = [rides objectAtIndex:indexPath.row];
     return cell;
-    
 }
 
 /*
