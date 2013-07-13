@@ -117,9 +117,9 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self performSegueWithIdentifier:@"getGroups" sender:self];
-    GroupInfo *detailViewController = [[GroupInfo alloc] init];
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController changeProductText:[groups objectAtIndex:indexPath.row]];
+    //GroupInfo *detailViewController = [[GroupInfo alloc] init];
+    //[self.navigationController pushViewController:detailViewController animated:YES];
+    //[detailViewController changeProductText:[groups objectAtIndex:indexPath.row]];
 }
 
 @end
