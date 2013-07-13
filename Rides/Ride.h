@@ -13,4 +13,5 @@
 @property (nonatomic, copy) NSString *rider;
 @property (nonatomic, assign) int rating;
 
+
 @end

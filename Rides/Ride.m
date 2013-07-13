@@ -10,4 +10,5 @@
 
 @implementation Ride
 @synthesize albumName, rider, rating;
+
 @end
