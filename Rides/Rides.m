@@ -8,6 +8,7 @@
 
 #import "Rides.h"
 #import "Ride.h"
+#import "Groups.h"
 
 @interface Rides ()
 

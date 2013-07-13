@@ -1,5 +1,5 @@
 //
-//  Groups.h
+//  GroupInfo.h
 //  Rides
 //
 //  Created by Isom,Grant on 7/13/13.
@@ -7,12 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Parse/Parse.h>
 
-@interface Groups : UITableViewController
-
-@property (nonatomic, strong) NSMutableArray *groups;
-
-
+@interface GroupInfo : UIViewController
 
 @end

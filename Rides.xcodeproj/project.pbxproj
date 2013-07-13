@@ -24,6 +24,9 @@
 		D401833D1791D59300DA0C40 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D401833C1791D59300DA0C40 /* Security.framework */; };
 		D401833F1791D59800DA0C40 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D401833E1791D59800DA0C40 /* StoreKit.framework */; };
 		D40183411791D59F00DA0C40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40183401791D59E00DA0C40 /* SystemConfiguration.framework */; };
+		D40183471791DE4A00DA0C40 /* Create.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183461791DE4A00DA0C40 /* Create.m */; };
+		D401834A1791EBA700DA0C40 /* AddFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183491791EBA700DA0C40 /* AddFriends.m */; };
+		D401834D1791F41E00DA0C40 /* GroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D401834C1791F41E00DA0C40 /* GroupInfo.m */; };
 		D4827E87178B6F1900DE89E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E86178B6F1900DE89E8 /* UIKit.framework */; };
 		D4827E89178B6F1900DE89E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E88178B6F1900DE89E8 /* Foundation.framework */; };
 		D4827E8B178B6F1900DE89E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E8A178B6F1900DE89E8 /* CoreGraphics.framework */; };
@@ -62,6 +65,12 @@
 		D401833C1791D59300DA0C40 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D401833E1791D59800DA0C40 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D40183401791D59E00DA0C40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D40183451791DE4A00DA0C40 /* Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Create.h; path = ../Create.h; sourceTree = "<group>"; };
+		D40183461791DE4A00DA0C40 /* Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Create.m; path = ../Create.m; sourceTree = "<group>"; };
+		D40183481791EBA700DA0C40 /* AddFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriends.h; sourceTree = "<group>"; };
+		D40183491791EBA700DA0C40 /* AddFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriends.m; sourceTree = "<group>"; };
+		D401834B1791F41D00DA0C40 /* GroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupInfo.h; sourceTree = "<group>"; };
+		D401834C1791F41E00DA0C40 /* GroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupInfo.m; sourceTree = "<group>"; };
 		D4827E83178B6F1900DE89E8 /* Rides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4827E86178B6F1900DE89E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4827E88178B6F1900DE89E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -147,8 +156,14 @@
 				D4827E95178B6F1900DE89E8 /* AppDelegate.h */,
 				D4827E96178B6F1900DE89E8 /* AppDelegate.m */,
 				D4827E9E178B6F1900DE89E8 /* MainStoryboard.storyboard */,
+				D40183481791EBA700DA0C40 /* AddFriends.h */,
+				D40183491791EBA700DA0C40 /* AddFriends.m */,
+				D40183451791DE4A00DA0C40 /* Create.h */,
+				D40183461791DE4A00DA0C40 /* Create.m */,
 				D401832F1791C70F00DA0C40 /* Groups.h */,
 				D40183301791C71000DA0C40 /* Groups.m */,
+				D401834B1791F41D00DA0C40 /* GroupInfo.h */,
+				D401834C1791F41E00DA0C40 /* GroupInfo.m */,
 				D4018318178C5DD900DA0C40 /* Map.h */,
 				D4018319178C5DD900DA0C40 /* Map.m */,
 				D4018309178C5B7F00DA0C40 /* Login.h */,
@@ -258,6 +273,9 @@
 				D401831D178D0ACB00DA0C40 /* Ride.m in Sources */,
 				D401832E1790711000DA0C40 /* Rides.m in Sources */,
 				D40183311791C71000DA0C40 /* Groups.m in Sources */,
+				D40183471791DE4A00DA0C40 /* Create.m in Sources */,
+				D401834A1791EBA700DA0C40 /* AddFriends.m in Sources */,
+				D401834D1791F41E00DA0C40 /* GroupInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

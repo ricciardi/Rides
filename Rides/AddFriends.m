@@ -1,19 +1,19 @@
 //
-//  Groups.m
+//  AddFriends.m
 //  Rides
 //
 //  Created by Isom,Grant on 7/13/13.
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "Groups.h"
+#import "AddFriends.h"
 
-@interface Groups ()
+@interface AddFriends ()
 
 @end
 
-@implementation Groups
-@synthesize groups;
+@implementation AddFriends
+@synthesize friends;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,19 +26,22 @@
 
 - (void)viewDidLoad
 {
+    friends = [NSMutableArray arrayWithObjects:@"Keith",@"Darrell", nil];
     [super viewDidLoad];
-    
-    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-    [testObject setObject:@"bar" forKey:@"foo"];
-    [testObject save];
 
-    groups = [NSMutableArray arrayWithObjects:@"Friends",@"Family", @"Lake", nil];
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
+ 
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)done:(id)sender {
 }
 
 #pragma mark - Table view data source
@@ -54,22 +57,22 @@
 {
 
     // Return the number of rows in the section.
-    return [groups count];
+    return [friends count];
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView
-                             dequeueReusableCellWithIdentifier:@"GroupCell"];
+                             dequeueReusableCellWithIdentifier:@"friendCell"];
 	
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GroupCell"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"friendCell"];
     }
     
-    cell.textLabel.text = [groups objectAtIndex:indexPath.row];
+    cell.textLabel.text = [friends objectAtIndex:indexPath.row];
     return cell;
 }
+
 
 
 /*
@@ -113,15 +116,25 @@
 
 #pragma mark - Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+/*- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
     
-     UITableViewController *detailViewController = [[UITableViewController alloc] initWithNibName:@"Rides" bundle:nil];
+     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
-    
-}
+     
 
+}*/
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)path {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:path];
+    
+    if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    } else {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+}
 @end

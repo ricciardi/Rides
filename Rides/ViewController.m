@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize groupsButton, createButton;
 
 - (void)viewDidLoad
 {
@@ -25,5 +26,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clickedCreate:(id)sender {
+    
+}
+- (IBAction)clickedGroups:(id)sender {
+}
 
+
+/*- (IBAction)next {
+    ViewBController *nextController = [[ViewBController alloc] initWithNibName:@"ViewBController" bundle:nil];
+    [self presentModalViewController:nextController animated:YES];
+    [nextController release];
+}
+*/
 @end
