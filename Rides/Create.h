@@ -10,7 +10,7 @@
 
 @interface Create : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *groupName;
+@property (strong, nonatomic) IBOutlet UITextField *groupName;
 @property (weak, nonatomic) IBOutlet UIButton *groupDone;
 -(IBAction)dismissKeyboardOnTap:(id)sender;
 

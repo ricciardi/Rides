@@ -29,12 +29,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	 self.groupName.delegate = self;
 }
 
--(BOOL)textFieldShouldReturn:(UITextField *)groupName {
-    [groupName resignFirstResponder];
-    return YES;
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
 }
 - (IBAction)groupName:(id)sender {
     NSString *name = _groupName.text;
