@@ -63,7 +63,9 @@ FOREIGN KEY (Group_Id) REFERENCES Groups(Group_Id),
 FOREIGN KEY (Response_Status) REFERENCES Invite_Status(Invite_Status_Id));
 
 INSERT INTO Invite_Status(Invite_Status_Name)
-VALUES		('Pending');
+VALUES		('pending'),
+		('ignored'),
+		('accepted');
 
 INSERT INTO Invites(From_Id, To_Id, Group_Id, Initiated_At, Response_Status)
 VALUES 		(1,4,1,'2013-05-10 12:00:00',1);
