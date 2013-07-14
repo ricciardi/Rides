@@ -62,6 +62,11 @@ FOREIGN KEY (To_Id) REFERENCES User(P_Id),
 FOREIGN KEY (Group_Id) REFERENCES Groups(Group_Id),
 FOREIGN KEY (Response_Status) REFERENCES Invite_Status(Invite_Status_Id));
 
+INSERT INTO Invite_Status(Invite_Status_Name)
+VALUES		('Pending');
+
+INSERT INTO Invites(From_Id, To_Id, Group_Id, Initiated_At, Response_Status)
+VALUES 		(1,4,1,'2013-05-10 12:00:00',1);
 INSERT INTO User(FB_Id, Name, Phone)
 VALUES   	(120384, 'Bob Smith', 3332221111),
 			(238418, 'John Smith', 1112223333),
