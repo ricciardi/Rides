@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Create : UIViewController
+@interface CreateGroupViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *groupName;
 @property (weak, nonatomic) IBOutlet UIButton *groupDone;

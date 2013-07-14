@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "AddFriends.h"
+#import "AddFriendsViewController.h"
 
-@interface AddFriends ()
+@interface AddFriendsViewController ()
 
 @end
 
-@implementation AddFriends
+@implementation AddFriendsViewController
 @synthesize friends;
 
 - (id)initWithStyle:(UITableViewStyle)style

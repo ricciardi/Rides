@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "Rides.h"
+#import "RidesViewController.h"
 #import "Ride.h"
-#import "Groups.h"
+#import "GroupsViewController.h"
 
-@interface Rides ()
+@interface RidesViewController ()
 
 @end
 
-@implementation Rides
+@implementation RidesViewController
 @synthesize rides;
 - (id)initWithStyle:(UITableViewStyle)style
 {

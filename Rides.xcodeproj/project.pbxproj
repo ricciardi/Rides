@@ -7,26 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D401830B178C5B7F00DA0C40 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = D401830A178C5B7F00DA0C40 /* Login.m */; };
-		D4018314178C5BB400DA0C40 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018313178C5BB400DA0C40 /* Driver.m */; };
-		D4018317178C5BD000DA0C40 /* Rider.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018316178C5BCF00DA0C40 /* Rider.m */; };
-		D401831A178C5DD900DA0C40 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018319178C5DD900DA0C40 /* Map.m */; };
+		80825E421791FACE00DEFDDA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80825E411791FACE00DEFDDA /* FacebookSDK.framework */; };
+		80825E461791FB1E00DEFDDA /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80825E451791FB1E00DEFDDA /* FacebookSDKResources.bundle */; };
+		80825E481791FB8100DEFDDA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80825E471791FB8100DEFDDA /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		80825E4B1791FB9600DEFDDA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80825E491791FB9600DEFDDA /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		80825E4C1791FB9600DEFDDA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80825E4A1791FB9600DEFDDA /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		80825E4E1791FBA800DEFDDA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80825E4D1791FBA800DEFDDA /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D401830B178C5B7F00DA0C40 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D401830A178C5B7F00DA0C40 /* LoginViewController.m */; };
+		D4018314178C5BB400DA0C40 /* DriverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018313178C5BB400DA0C40 /* DriverViewController.m */; };
+		D4018317178C5BD000DA0C40 /* RiderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018316178C5BCF00DA0C40 /* RiderViewController.m */; };
+		D401831A178C5DD900DA0C40 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4018319178C5DD900DA0C40 /* MapViewController.m */; };
 		D401831D178D0ACB00DA0C40 /* Ride.m in Sources */ = {isa = PBXBuildFile; fileRef = D401831C178D0ACB00DA0C40 /* Ride.m */; };
 		D4018323178DA1B400DA0C40 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4018322178DA1B400DA0C40 /* CFNetwork.framework */; };
 		D4018325178DA1CB00DA0C40 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4018324178DA1CB00DA0C40 /* QuartzCore.framework */; };
-		D401832E1790711000DA0C40 /* Rides.m in Sources */ = {isa = PBXBuildFile; fileRef = D401832D1790711000DA0C40 /* Rides.m */; };
-		D40183311791C71000DA0C40 /* Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183301791C71000DA0C40 /* Groups.m */; };
+		D401832E1790711000DA0C40 /* RidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D401832D1790711000DA0C40 /* RidesViewController.m */; };
+		D40183311791C71000DA0C40 /* GroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183301791C71000DA0C40 /* GroupsViewController.m */; };
 		D40183331791D51900DA0C40 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40183321791D51900DA0C40 /* Parse.framework */; };
 		D40183351791D56700DA0C40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40183341791D56700DA0C40 /* AudioToolbox.framework */; };
 		D40183371791D57300DA0C40 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40183361791D57300DA0C40 /* CoreLocation.framework */; };
 		D40183391791D57A00DA0C40 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D40183381791D57A00DA0C40 /* libz.1.1.3.dylib */; };
 		D401833B1791D58300DA0C40 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D401833A1791D58300DA0C40 /* MobileCoreServices.framework */; };
-		D401833D1791D59300DA0C40 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D401833C1791D59300DA0C40 /* Security.framework */; };
+		D401833D1791D59300DA0C40 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D401833C1791D59300DA0C40 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D401833F1791D59800DA0C40 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D401833E1791D59800DA0C40 /* StoreKit.framework */; };
 		D40183411791D59F00DA0C40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40183401791D59E00DA0C40 /* SystemConfiguration.framework */; };
-		D40183471791DE4A00DA0C40 /* Create.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183461791DE4A00DA0C40 /* Create.m */; };
-		D401834A1791EBA700DA0C40 /* AddFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183491791EBA700DA0C40 /* AddFriends.m */; };
-		D401834D1791F41E00DA0C40 /* GroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D401834C1791F41E00DA0C40 /* GroupInfo.m */; };
+		D40183471791DE4A00DA0C40 /* CreateGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183461791DE4A00DA0C40 /* CreateGroupViewController.m */; };
+		D401834A1791EBA700DA0C40 /* AddFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40183491791EBA700DA0C40 /* AddFriendsViewController.m */; };
+		D401834D1791F41E00DA0C40 /* GroupInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D401834C1791F41E00DA0C40 /* GroupInfoViewController.m */; };
 		D4827E87178B6F1900DE89E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E86178B6F1900DE89E8 /* UIKit.framework */; };
 		D4827E89178B6F1900DE89E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E88178B6F1900DE89E8 /* Foundation.framework */; };
 		D4827E8B178B6F1900DE89E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4827E8A178B6F1900DE89E8 /* CoreGraphics.framework */; };
@@ -37,26 +43,32 @@
 		D4827E9B178B6F1900DE89E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4827E9A178B6F1900DE89E8 /* Default@2x.png */; };
 		D4827E9D178B6F1900DE89E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4827E9C178B6F1900DE89E8 /* Default-568h@2x.png */; };
 		D4827EA0178B6F1900DE89E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4827E9E178B6F1900DE89E8 /* MainStoryboard.storyboard */; };
-		D4827EA3178B6F1900DE89E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4827EA2178B6F1900DE89E8 /* ViewController.m */; };
+		D4827EA3178B6F1900DE89E8 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4827EA2178B6F1900DE89E8 /* MenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D4018309178C5B7F00DA0C40 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
-		D401830A178C5B7F00DA0C40 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
-		D4018312178C5BB400DA0C40 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
-		D4018313178C5BB400DA0C40 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
-		D4018315178C5BCF00DA0C40 /* Rider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rider.h; sourceTree = "<group>"; };
-		D4018316178C5BCF00DA0C40 /* Rider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rider.m; sourceTree = "<group>"; };
-		D4018318178C5DD900DA0C40 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
-		D4018319178C5DD900DA0C40 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		80825E411791FACE00DEFDDA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		80825E451791FB1E00DEFDDA /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		80825E471791FB8100DEFDDA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		80825E491791FB9600DEFDDA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		80825E4A1791FB9600DEFDDA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		80825E4D1791FBA800DEFDDA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D4018309178C5B7F00DA0C40 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D401830A178C5B7F00DA0C40 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D4018312178C5BB400DA0C40 /* DriverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverViewController.h; sourceTree = "<group>"; };
+		D4018313178C5BB400DA0C40 /* DriverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverViewController.m; sourceTree = "<group>"; };
+		D4018315178C5BCF00DA0C40 /* RiderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiderViewController.h; sourceTree = "<group>"; };
+		D4018316178C5BCF00DA0C40 /* RiderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiderViewController.m; sourceTree = "<group>"; };
+		D4018318178C5DD900DA0C40 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D4018319178C5DD900DA0C40 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		D401831B178D0ACB00DA0C40 /* Ride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ride.h; sourceTree = "<group>"; };
 		D401831C178D0ACB00DA0C40 /* Ride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ride.m; sourceTree = "<group>"; };
 		D4018322178DA1B400DA0C40 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D4018324178DA1CB00DA0C40 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D401832C1790711000DA0C40 /* Rides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rides.h; path = Rides/Rides.h; sourceTree = SOURCE_ROOT; };
-		D401832D1790711000DA0C40 /* Rides.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Rides.m; path = Rides/Rides.m; sourceTree = SOURCE_ROOT; };
-		D401832F1791C70F00DA0C40 /* Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Groups.h; sourceTree = "<group>"; };
-		D40183301791C71000DA0C40 /* Groups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Groups.m; sourceTree = "<group>"; };
+		D401832C1790711000DA0C40 /* RidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RidesViewController.h; path = Rides/RidesViewController.h; sourceTree = SOURCE_ROOT; };
+		D401832D1790711000DA0C40 /* RidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RidesViewController.m; path = Rides/RidesViewController.m; sourceTree = SOURCE_ROOT; };
+		D401832F1791C70F00DA0C40 /* GroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupsViewController.h; sourceTree = "<group>"; };
+		D40183301791C71000DA0C40 /* GroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupsViewController.m; sourceTree = "<group>"; };
 		D40183321791D51900DA0C40 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		D40183341791D56700DA0C40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D40183361791D57300DA0C40 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -65,12 +77,12 @@
 		D401833C1791D59300DA0C40 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D401833E1791D59800DA0C40 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D40183401791D59E00DA0C40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D40183451791DE4A00DA0C40 /* Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Create.h; path = ../Create.h; sourceTree = "<group>"; };
-		D40183461791DE4A00DA0C40 /* Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Create.m; path = ../Create.m; sourceTree = "<group>"; };
-		D40183481791EBA700DA0C40 /* AddFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriends.h; sourceTree = "<group>"; };
-		D40183491791EBA700DA0C40 /* AddFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriends.m; sourceTree = "<group>"; };
-		D401834B1791F41D00DA0C40 /* GroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupInfo.h; sourceTree = "<group>"; };
-		D401834C1791F41E00DA0C40 /* GroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupInfo.m; sourceTree = "<group>"; };
+		D40183451791DE4A00DA0C40 /* CreateGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateGroupViewController.h; path = ../CreateGroupViewController.h; sourceTree = "<group>"; };
+		D40183461791DE4A00DA0C40 /* CreateGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateGroupViewController.m; path = ../CreateGroupViewController.m; sourceTree = "<group>"; };
+		D40183481791EBA700DA0C40 /* AddFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendsViewController.h; sourceTree = "<group>"; };
+		D40183491791EBA700DA0C40 /* AddFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendsViewController.m; sourceTree = "<group>"; };
+		D401834B1791F41D00DA0C40 /* GroupInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupInfoViewController.h; sourceTree = "<group>"; };
+		D401834C1791F41E00DA0C40 /* GroupInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupInfoViewController.m; sourceTree = "<group>"; };
 		D4827E83178B6F1900DE89E8 /* Rides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4827E86178B6F1900DE89E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4827E88178B6F1900DE89E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,8 +97,8 @@
 		D4827E9A178B6F1900DE89E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D4827E9C178B6F1900DE89E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D4827E9F178B6F1900DE89E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D4827EA1178B6F1900DE89E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D4827EA2178B6F1900DE89E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4827EA1178B6F1900DE89E8 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		D4827EA2178B6F1900DE89E8 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80825E4E1791FBA800DEFDDA /* Social.framework in Frameworks */,
+				80825E4B1791FB9600DEFDDA /* Accounts.framework in Frameworks */,
+				80825E4C1791FB9600DEFDDA /* AdSupport.framework in Frameworks */,
+				80825E481791FB8100DEFDDA /* libsqlite3.dylib in Frameworks */,
 				D40183411791D59F00DA0C40 /* SystemConfiguration.framework in Frameworks */,
 				D401833F1791D59800DA0C40 /* StoreKit.framework in Frameworks */,
 				D401833D1791D59300DA0C40 /* Security.framework in Frameworks */,
@@ -107,6 +123,7 @@
 				D4827E87178B6F1900DE89E8 /* UIKit.framework in Frameworks */,
 				D4827E89178B6F1900DE89E8 /* Foundation.framework in Frameworks */,
 				D40183331791D51900DA0C40 /* Parse.framework in Frameworks */,
+				80825E421791FACE00DEFDDA /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +150,12 @@
 		D4827E85178B6F1900DE89E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80825E4D1791FBA800DEFDDA /* Social.framework */,
+				80825E491791FB9600DEFDDA /* Accounts.framework */,
+				80825E4A1791FB9600DEFDDA /* AdSupport.framework */,
+				80825E471791FB8100DEFDDA /* libsqlite3.dylib */,
+				80825E451791FB1E00DEFDDA /* FacebookSDKResources.bundle */,
+				80825E411791FACE00DEFDDA /* FacebookSDK.framework */,
 				D40183401791D59E00DA0C40 /* SystemConfiguration.framework */,
 				D401833E1791D59800DA0C40 /* StoreKit.framework */,
 				D401833C1791D59300DA0C40 /* Security.framework */,
@@ -156,28 +179,28 @@
 				D4827E95178B6F1900DE89E8 /* AppDelegate.h */,
 				D4827E96178B6F1900DE89E8 /* AppDelegate.m */,
 				D4827E9E178B6F1900DE89E8 /* MainStoryboard.storyboard */,
-				D40183481791EBA700DA0C40 /* AddFriends.h */,
-				D40183491791EBA700DA0C40 /* AddFriends.m */,
-				D40183451791DE4A00DA0C40 /* Create.h */,
-				D40183461791DE4A00DA0C40 /* Create.m */,
-				D401832F1791C70F00DA0C40 /* Groups.h */,
-				D40183301791C71000DA0C40 /* Groups.m */,
-				D401834B1791F41D00DA0C40 /* GroupInfo.h */,
-				D401834C1791F41E00DA0C40 /* GroupInfo.m */,
-				D4018318178C5DD900DA0C40 /* Map.h */,
-				D4018319178C5DD900DA0C40 /* Map.m */,
-				D4018309178C5B7F00DA0C40 /* Login.h */,
-				D401830A178C5B7F00DA0C40 /* Login.m */,
+				D40183481791EBA700DA0C40 /* AddFriendsViewController.h */,
+				D40183491791EBA700DA0C40 /* AddFriendsViewController.m */,
+				D40183451791DE4A00DA0C40 /* CreateGroupViewController.h */,
+				D40183461791DE4A00DA0C40 /* CreateGroupViewController.m */,
+				D401832F1791C70F00DA0C40 /* GroupsViewController.h */,
+				D40183301791C71000DA0C40 /* GroupsViewController.m */,
+				D401834B1791F41D00DA0C40 /* GroupInfoViewController.h */,
+				D401834C1791F41E00DA0C40 /* GroupInfoViewController.m */,
+				D4018318178C5DD900DA0C40 /* MapViewController.h */,
+				D4018319178C5DD900DA0C40 /* MapViewController.m */,
+				D4018309178C5B7F00DA0C40 /* LoginViewController.h */,
+				D401830A178C5B7F00DA0C40 /* LoginViewController.m */,
 				D401831B178D0ACB00DA0C40 /* Ride.h */,
 				D401831C178D0ACB00DA0C40 /* Ride.m */,
-				D401832C1790711000DA0C40 /* Rides.h */,
-				D401832D1790711000DA0C40 /* Rides.m */,
-				D4018312178C5BB400DA0C40 /* Driver.h */,
-				D4018313178C5BB400DA0C40 /* Driver.m */,
-				D4018315178C5BCF00DA0C40 /* Rider.h */,
-				D4018316178C5BCF00DA0C40 /* Rider.m */,
-				D4827EA1178B6F1900DE89E8 /* ViewController.h */,
-				D4827EA2178B6F1900DE89E8 /* ViewController.m */,
+				D401832C1790711000DA0C40 /* RidesViewController.h */,
+				D401832D1790711000DA0C40 /* RidesViewController.m */,
+				D4018312178C5BB400DA0C40 /* DriverViewController.h */,
+				D4018313178C5BB400DA0C40 /* DriverViewController.m */,
+				D4018315178C5BCF00DA0C40 /* RiderViewController.h */,
+				D4018316178C5BCF00DA0C40 /* RiderViewController.m */,
+				D4827EA1178B6F1900DE89E8 /* MenuViewController.h */,
+				D4827EA2178B6F1900DE89E8 /* MenuViewController.m */,
 				D4827E8D178B6F1900DE89E8 /* Supporting Files */,
 			);
 			path = Rides;
@@ -253,6 +276,7 @@
 				D4827E9B178B6F1900DE89E8 /* Default@2x.png in Resources */,
 				D4827E9D178B6F1900DE89E8 /* Default-568h@2x.png in Resources */,
 				D4827EA0178B6F1900DE89E8 /* MainStoryboard.storyboard in Resources */,
+				80825E461791FB1E00DEFDDA /* FacebookSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,17 +289,17 @@
 			files = (
 				D4827E93178B6F1900DE89E8 /* main.m in Sources */,
 				D4827E97178B6F1900DE89E8 /* AppDelegate.m in Sources */,
-				D4827EA3178B6F1900DE89E8 /* ViewController.m in Sources */,
-				D401830B178C5B7F00DA0C40 /* Login.m in Sources */,
-				D4018314178C5BB400DA0C40 /* Driver.m in Sources */,
-				D4018317178C5BD000DA0C40 /* Rider.m in Sources */,
-				D401831A178C5DD900DA0C40 /* Map.m in Sources */,
+				D4827EA3178B6F1900DE89E8 /* MenuViewController.m in Sources */,
+				D401830B178C5B7F00DA0C40 /* LoginViewController.m in Sources */,
+				D4018314178C5BB400DA0C40 /* DriverViewController.m in Sources */,
+				D4018317178C5BD000DA0C40 /* RiderViewController.m in Sources */,
+				D401831A178C5DD900DA0C40 /* MapViewController.m in Sources */,
 				D401831D178D0ACB00DA0C40 /* Ride.m in Sources */,
-				D401832E1790711000DA0C40 /* Rides.m in Sources */,
-				D40183311791C71000DA0C40 /* Groups.m in Sources */,
-				D40183471791DE4A00DA0C40 /* Create.m in Sources */,
-				D401834A1791EBA700DA0C40 /* AddFriends.m in Sources */,
-				D401834D1791F41E00DA0C40 /* GroupInfo.m in Sources */,
+				D401832E1790711000DA0C40 /* RidesViewController.m in Sources */,
+				D40183311791C71000DA0C40 /* GroupsViewController.m in Sources */,
+				D40183471791DE4A00DA0C40 /* CreateGroupViewController.m in Sources */,
+				D401834A1791EBA700DA0C40 /* AddFriendsViewController.m in Sources */,
+				D401834D1791F41E00DA0C40 /* GroupInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +391,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rides/Rides-Prefix.pch";
 				INFOPLIST_FILE = "Rides/Rides-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -382,6 +410,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rides/Rides-Prefix.pch";
 				INFOPLIST_FILE = "Rides/Rides-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

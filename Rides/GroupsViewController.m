@@ -6,14 +6,14 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "Groups.h"
-#import "GroupInfo.h"
+#import "GroupsViewController.h"
+#import "GroupInfoViewController.h"
 
-@interface Groups ()
+@interface GroupsViewController ()
 
 @end
 
-@implementation Groups
+@implementation GroupsViewController
 @synthesize groups;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -118,7 +118,7 @@
 {
     // Navigation logic may go here. Create and push another view controller.
     
-     GroupInfo *detailViewController = [[GroupInfo alloc] init];
+     GroupInfoViewController *detailViewController = [[GroupInfoViewController alloc] init];
      // ...cell.textLabel.text = [groups objectAtIndex:indexPath.row];
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
