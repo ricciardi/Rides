@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Driver : UIViewController
+@interface DriverViewController : UIViewController
 
 @end

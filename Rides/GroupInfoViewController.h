@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GroupInfo : UIViewController
+@interface GroupInfoViewController : UIViewController
 
 @end

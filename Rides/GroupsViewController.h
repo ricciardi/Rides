@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
-@interface Groups : UITableViewController
+@interface GroupsViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *groups;
 

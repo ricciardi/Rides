@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "Map.h"
+#import "MapViewController.h"
 
-@interface Map ()
+@interface MapViewController ()
 
 @end
 
-@implementation Map
+@implementation MapViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

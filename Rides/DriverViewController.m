@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "Driver.h"
+#import "DriverViewController.h"
 
-@interface Driver ()
+@interface DriverViewController ()
 
 @end
 
-@implementation Driver
+@implementation DriverViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

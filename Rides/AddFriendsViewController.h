@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddFriends : UITableViewController
+@interface AddFriendsViewController : UITableViewController
 
 @property (strong, nonatomic) NSMutableArray *friends;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *done;

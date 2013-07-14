@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Map : UIViewController
+@interface MapViewController : UIViewController
 
 @end

@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "Create.h"
+#import "CreateGroupViewController.h"
 
-@interface Create ()
+@interface CreateGroupViewController ()
 
 @end
 
-@implementation Create
+@implementation CreateGroupViewController
 
 
 

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
-@interface ViewController : UIViewController
+@interface MenuViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIButton *groupsButton;
 @property (weak, nonatomic) IBOutlet UIButton *createButton;

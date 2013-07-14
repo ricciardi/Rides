@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "Rider.h"
+#import "RiderViewController.h"
 
-@interface Rider ()
+@interface RiderViewController ()
 
 @end
 
-@implementation Rider
+@implementation RiderViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

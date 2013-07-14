@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MenuViewController.h"
 
-@interface ViewController ()
+@interface MenuViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MenuViewController
 @synthesize groupsButton, createButton;
 
 - (void)viewDidLoad

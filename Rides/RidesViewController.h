@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Rides : UITableViewController
+@interface RidesViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *rides;
 

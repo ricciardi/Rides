@@ -6,14 +6,14 @@
 //  Copyright (c) 2013 Chocolate Ice Cream. All rights reserved.
 //
 
-#import "GroupInfo.h"
-#import "Groups.h"
+#import "GroupInfoViewController.h"
+#import "GroupsViewController.h"
 
-@interface GroupInfo ()
+@interface GroupInfoViewController ()
 
 @end
 
-@implementation GroupInfo
+@implementation GroupInfoViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
